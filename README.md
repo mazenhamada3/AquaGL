@@ -1,4 +1,4 @@
-# 🐠 Feeding Frenzy
+# 🐠 AquaGL
 
 A 3D underwater arcade game built from scratch in **Python, Pygame, and PyOpenGL** — grow your fish by eating anything smaller than you, avoid anything bigger, and become the biggest fish in the reef.
 
@@ -6,7 +6,7 @@ A 3D underwater arcade game built from scratch in **Python, Pygame, and PyOpenGL
 
 ## 🎮 About
 
-Feeding Frenzy is a real-time, OpenGL-rendered take on the classic "eat-to-grow" arcade formula. Every fish on screen — player and enemies alike — is drawn entirely with raw OpenGL primitives (triangle fans, triangles, and quads); there are no sprite assets for the fish themselves. The scene is lit with a dynamic Phong-style light source, the HUD/UI text is rendered by converting Pygame font surfaces into OpenGL textures on the fly, and the whole thing runs on the classic fixed-function OpenGL pipeline via `PyOpenGL`.
+AquaGL is a real-time, OpenGL-rendered take on the classic "eat-to-grow" arcade formula. Every fish on screen — player and enemies alike — is drawn entirely with raw OpenGL primitives (triangle fans, triangles, and quads); there are no sprite assets for the fish themselves. The scene is lit with a dynamic Phong-style light source, the HUD/UI text is rendered by converting Pygame font surfaces into OpenGL textures on the fly, and the whole thing runs on the classic fixed-function OpenGL pipeline via `PyOpenGL`.
 
 You play as a single fish navigating an open underwater arena. Smaller (or equal-sized) enemy fish can be eaten to grow and score points; larger fish end the game on contact. Reach the target size to win.
 
@@ -53,8 +53,8 @@ You play as a single fish navigating an open underwater arena. Smaller (or equal
 ## 🗂️ Project Structure
 
 ```
-FeedingFrenzy/
-├── FeedingFrenzy.py        # Main game: init, rendering, game loop, physics, collisions
+AquaGL/
+├── AquaGL.py        # Main game: init, rendering, game loop, physics, collisions
 ├── audio/
 │   ├── background_music.mp3
 │   ├── eat.wav
@@ -89,8 +89,8 @@ FeedingFrenzy/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/<your-username>/FeedingFrenzy.git
-cd FeedingFrenzy
+git clone https://github.com/youssefabdelrehim/AquaGL.git
+cd AquaGL
 ```
 
 2. **Install dependencies:**
@@ -100,10 +100,8 @@ pip install pygame PyOpenGL PyOpenGL_accelerate
 
 3. **Run the game** (from the project root, so the relative `audio/` and `Demo/` paths resolve correctly):
 ```bash
-python FeedingFrenzy.py
+python AquaGL
 ```
-
-> **Note:** The game launches at a fixed `1920x1080` resolution in fullscreen OpenGL mode. Make sure your display supports this, or adjust the `display` tuple in `main()` before running.
 
 ---
 
