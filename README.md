@@ -107,4 +107,4 @@ python AquaGL
 
 ## ⚠️ Disclaimer
 
-This is an academic project built for a Computer Graphics course, focused on demonstrating real-time 3D rendering, lighting, and OpenGL primitive-based modeling rather than production game architecture. The renderer uses the legacy OpenGL fixed-function (immediate mode) pipeline for clarity and simplicity rather than a modern shader-based pipeline.
+This is an academic project built for a Computer Graphics course, focused on demonstrating real-time 3D rendering, lighting, and OpenGL primitive-based modeling rather than production game architecture. The renderer uses the legacy OpenGL fixed-function (immediate mode) pipeline for clarity and simplicity rather than a modern shader-based pipeline. 
